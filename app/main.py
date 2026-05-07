@@ -18,4 +18,3 @@ def create_person_list(people: list) -> list:
             husband = item.get("husband")
             person.husband = Person.people[husband]
     return people_list
-
